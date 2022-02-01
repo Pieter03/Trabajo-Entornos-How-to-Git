@@ -77,3 +77,9 @@ elif(opcion==6):
         resultado1=(numero1 % numero2)
         print(f"Resto de {numero1} % {numero2} = {resResto(numero1, numero2)}")
 
+#Exponenciación
+elif(opcion==7):
+    resExponente= lambda x, y: pow(x, y)
+    numero1=int(input("Introduce el primer número: "))
+    numero2=int(input("Introduce el exponente: "))
+    print(f"{numero1} elevado a {numero2} = {resExponente(numero1, numero2)}")
