@@ -35,3 +35,12 @@ elif(opcion==2):
     numero2=int(input("Introduce el segundo número: "))
     resultado1=(numero1 - numero2)
     print(f"{numero1} - {numero2} = {resResta(numero1, numero2)}")
+    
+#Multiplicación
+elif(opcion==3):
+    resMultiplicacion= lambda x, y: x*y
+    numero1=int(input("Introduce el primer número: "))
+    numero2=int(input("Introduce el segundo número: "))
+    resultado1=(numero1 * numero2)
+    print(f"{numero1} * {numero2} = {resMultiplicacion(numero1, numero2)}")
+
