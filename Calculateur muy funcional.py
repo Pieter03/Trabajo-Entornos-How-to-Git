@@ -44,3 +44,13 @@ elif(opcion==3):
     resultado1=(numero1 * numero2)
     print(f"{numero1} * {numero2} = {resMultiplicacion(numero1, numero2)}")
 
+#División
+elif(opcion==4):
+    resDivision= lambda x, y: x/y
+    numero1=int(input("Introduce el primer número: "))
+    numero2=int(input("Introduce el segundo número: "))
+    if(numero2==0):
+        print("No es posible dividir entre 0")
+    else:
+        resultado1=(numero1 / numero2)
+        print(f"{numero1} / {numero2} = {resDivision(numero1, numero2)}")
