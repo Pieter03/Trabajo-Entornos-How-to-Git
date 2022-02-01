@@ -54,3 +54,26 @@ elif(opcion==4):
     else:
         resultado1=(numero1 / numero2)
         print(f"{numero1} / {numero2} = {resDivision(numero1, numero2)}")
+        
+#Cociente
+elif(opcion==5):
+    resCociente= lambda x, y: x//y
+    numero1=int(input("Introduce el primer número: "))
+    numero2=int(input("Introduce el segundo número: "))
+    if(numero2==0):
+        print("No es posible dividir entre 0")
+    else:
+        resultado1=(numero1 // numero2)
+        print(f"Cociente de {numero1} // {numero2} = {resCociente(numero1, numero2)}")
+
+#Resto   
+elif(opcion==6):
+    resResto= lambda x, y: x%y
+    numero1=int(input("Introduce el primer número: "))
+    numero2=int(input("Introduce el segundo número: "))
+    if(numero2==0):
+        print("No es posible dividir entre 0")
+    else:
+        resultado1=(numero1 % numero2)
+        print(f"Resto de {numero1} % {numero2} = {resResto(numero1, numero2)}")
+
