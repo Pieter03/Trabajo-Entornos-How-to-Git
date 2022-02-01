@@ -108,7 +108,7 @@ elif(opcion==10):
 #Área Círculo
 elif(opcion==11):
     resAreaCirculo= lambda x: math.pi*x**2
-    radio=int(input("Introduce el radio del triángulo: "))
+    radio=int(input("Introduce el radio del círculo: "))
     print(f"El área de un círculo de radio {radio} es {round(resAreaCirculo(radio), 2)} metros cuadrados")
     
 #Salir
