@@ -54,3 +54,29 @@ elif(opcion==4):
     else:
         resultado1=(numero1 / numero2)
         print(f"{numero1} / {numero2} = {resDivision(numero1, numero2)}")
+        
+#Área Cuadrado
+elif(opcion==8):
+    resAreaCuadrado= lambda x: pow(x, 2)
+    lado=int(input("Introduce el lado del cuadrado: "))
+    print(f"El área de un cuadrado de lado {lado} es {resAreaCuadrado(lado)} metros cuadrados")
+
+#Área Rectángulo
+elif(opcion==9):
+    resMultiplicacion= lambda x, y: x*y
+    base=int(input("Introduce la base del rectángulo: "))
+    altura=int(input("Introduce la altura del rectángulo: "))
+    print(f"El área de un rectángulo de base {base} y altura {altura} es {resMultiplicacion(base, altura)} metros cuadrados")
+
+#Área Triángulo
+elif(opcion==10):
+    resAreaTriangulo= lambda x, y: x*y/2
+    base=int(input("Introduce la base del triángulo: "))
+    altura=int(input("Introduce la altura del triángulo: "))
+    print(f"El área de un triángulo de base {base} y altura {altura} es {resAreaTriangulo(base, altura)} metros cuadrados")
+
+#Área Círculo
+elif(opcion==11):
+    resAreaCirculo= lambda x: math.pi*x**2
+    radio=int(input("Introduce el radio del triángulo: "))
+    print(f"El área de un círculo de radio {radio} es {round(resAreaCirculo(radio), 2)} metros cuadrados")
