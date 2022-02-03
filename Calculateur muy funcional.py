@@ -110,9 +110,5 @@ elif(opcion==11):
     resAreaCirculo= lambda x: math.pi*x**2
     radio=int(input("Introduce el radio del círculo: "))
     print(f"El área de un círculo de radio {radio} es {round(resAreaCirculo(radio), 2)} metros cuadrados")
-    
-#Salir
-elif(opcion==12):
-    print("Cerrando la calculadora...")
-    
 
+#No incorpora la función salir, con lo cual es una versión de menor funcionalidad.
